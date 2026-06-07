@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Restaurant Schoperia La Mandarina — Patrimonio Culinario del Barrio San Joaquín. Cocina chilena de hogar, carnes a lo pobre, menú del día desde $5.000. Sierra Bella 2421, San Joaquín, Santiago. Tel: +56 9 9437 0380.">
+<meta name="keywords" content="restaurant san joaquin, schoperia, cocina chilena, carnes a lo pobre, almuerzo economico, la mandarina, santiago">
+<meta name="author" content="La Mandarina Restaurant">
+<!-- Open Graph -->
+<meta property="og:title" content="Restaurant Schoperia La Mandarina">
+<meta property="og:description" content="Patrimonio Culinario del Barrio San Joaquín. Cocina chilena honesta desde 1943.">
+<meta property="og:type" content="restaurant">
+<meta property="og:locale" content="es_CL">
+<title>Restaurant Schoperia La Mandarina — Patrimonio Culinario del Barrio</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&family=Dancing+Script:wght@600;700&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+<!-- Estilos -->
+<link rel="stylesheet" href="css/styles.css">
+<!-- Favicon -->
+<link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <span class="nav-logo-main">La Mandarina</span>
+    <span class="nav-logo-sub">Restaurant · Schoperia · San Joaquín</span>
+  </div>
+  <button class="nav-hamburger" id="navToggle" aria-label="Menú">☰</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#historia">Historia</a></li>
+    <li><a href="#carnes">Carta de Carnes</a></li>
+    <li><a href="#menu-dia">Menú del Día</a></li>
+    <li><a href="#resenas">Opiniones</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+    <li><a href="tel:+56994370380" class="btn-nav-llamar">📞 Llamar</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="inicio" class="hero">
+  <div class="hero-content">
+    <div class="hero-pill">🍊 Patrimonio Culinario del Barrio · Desde 1943</div>
+    <h1>Restaurant<br><em>Schoperia</em><br>La Mandarina</h1>
+    <span class="hero-tagline">El sabor honesto del barrio San Joaquín</span>
+    <p>Cocina chilena de hogar, carnes abundantes a precios justos y el calor de un local que lleva décadas siendo el alma del barrio. Ven a almorzar, te esperamos.</p>
+    <div class="hero-stats">
+      <div class="hstat"><span class="hstat-n">4.4★</span><span class="hstat-l">Google Reviews</span></div>
+      <div class="hstat"><span class="hstat-n">1.090</span><span class="hstat-l">Opiniones</span></div>
+      <div class="hstat"><span class="hstat-n">$5–10K</span><span class="hstat-l">Por persona</span></div>
+      <div class="hstat"><span class="hstat-n">80+</span><span class="hstat-l">Años de historia</span></div>
+    </div>
+    <div class="hero-btns">
+      <a href="tel:+56994370380" class="btn-primary">📞 Reservar o Consultar</a>
+      <a href="#carnes" class="btn-secondary">Ver carta de carnes</a>
+    </div>
+  </div>
+  <div class="hero-pizarra">
+    <span class="pizarra-title">Menú del Día</span>
+    <ul class="pizarra-items">
+      <li>Cazuela de Vacuno / Ave</li>
+      <li>Pollo al Horno</li>
+      <li>Pescado Frito (Merluza)</li>
+      <li>Asado al Jugo</li>
+      <li>Chuleta Frita</li>
+      <li>Bistec de Vacuno</li>
+    </ul>
+  </div>
+</section>
+
+<!-- HISTORIA -->
+<section id="historia" class="historia">
+  <div class="container">
+    <div class="historia-grid">
+      <div class="historia-visual">
+        <div class="historia-foto-main">
+          <!-- Reemplaza src con tu foto real del local -->
+          <img src="img/local-exterior.jpg" alt="Fachada Restaurant La Mandarina" onerror="this.parentElement.innerHTML='<div style=\'width:100%;height:100%;background:linear-gradient(135deg,#D4520A,#B03A2E);display:flex;align-items:center;justify-content:center;font-size:6rem\'>🍊</div>'">
+        </div>
+        <div class="historia-badge-flotante">
+          <span class="hbf-num">80+</span>
+          <span class="hbf-lbl">Años</span>
+        </div>
+        <div class="historia-mini-fotos">
+          <img src="img/plato-carne.jpg" alt="Carnes a lo pobre" class="mini-foto" onerror="this.outerHTML='<div class=\'mini-foto mf1\'>🥩</div>'">
+          <img src="img/cazuela.jpg" alt="Cazuela" class="mini-foto" onerror="this.outerHTML='<div class=\'mini-foto mf2\'>🍲</div>'">
+          <img src="img/pescado.jpg" alt="Pescado frito" class="mini-foto" onerror="this.outerHTML='<div class=\'mini-foto mf3\'>🐟</div>'">
+          <img src="img/interior.jpg" alt="Interior del local" class="mini-foto" onerror="this.outerHTML='<div class=\'mini-foto mf4\'>🌿</div>'">
+        </div>
+      </div>
+      <div class="historia-texto">
+        <span class="lead">Nuestra historia</span>
+        <h2>El corazón culinario de San Joaquín</h2>
+        <p>La Mandarina nació en 1943 como una picada de barrio con una sola certeza: <strong>cocina chilena honesta</strong>, abundante y a precios que cualquier trabajador podía pagar. Más de ocho décadas después, esa certeza sigue siendo nuestra carta de presentación.</p>
+        <p>Con paredes naranjas, pizarras escritas a mano y el aroma inconfundible de una cazuela que lleva horas en el fuego, La Mandarina es hoy <strong>"Patrimonio Culinario del Barrio"</strong> —un título que se ganó plato a plato, con trabajo y consistencia.</p>
+        <p>Aquí no hay trucos ni atajos: puré hecho en casa, caldos que se cocinan desde temprano, carnes generosas y una atención que todavía se siente familiar. Para los niños, lápices de colores y libros para pintar mientras esperan.</p>
+        <div class="historia-datos">
+          <div class="hd-item"><span class="hd-num">1943</span><span class="hd-lbl">Fundación</span></div>
+          <div class="hd-item"><span class="hd-num">4.4★</span><span class="hd-lbl">Rating Google</span></div>
+          <div class="hd-item"><span class="hd-num">1.090</span><span class="hd-lbl">Reseñas</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARTA DE CARNES -->
+<section id="carnes" class="carnes">
+  <div class="container">
+    <span class="section-tag">Nuestra especialidad</span>
+    <h2 class="section-title" style="color:var(--crema)">Carta de Carnes a lo Pobre</h2>
+    <p class="section-sub">Carnes generosas, guarnición completa y el sabor de siempre. Cada plato viene con papas fritas, arroz o puré, ensalada y lo que pida el corazón.</p>
+    <div class="carnes-grid">
+      <div class="carne-card">
+        <div class="carne-info">
+          <h4>Lomo Vetado a lo Pobre <span class="carne-estrella">★ Estrella</span></h4>
+          <p>Carne a la parrilla + 2 huevos fritos + guarnición completa</p>
+        </div>
+        <span class="carne-precio">$16.900</span>
+      </div>
+      <div class="carne-card">
+        <div class="carne-info">
+          <h4>Lomo Liso a lo Pobre</h4>
+          <p>Lomo liso jugoso con huevo y guarnición a elección</p>
+        </div>
+        <span class="carne-precio">$16.900</span>
+      </div>
+      <div class="carne-card">
+        <div class="carne-info">
+          <h4>Chuletas de Vacuno a lo Pobre</h4>
+          <p>Chuletas a la plancha con acompañamiento completo</p>
+        </div>
+        <span class="carne-precio">$16.900</span>
+      </div>
+      <div class="carne-card">
+        <div class="carne-info">
+          <h4>Costillar de Cerdo a lo Pobre</h4>
+          <p>Costillar al jugo, tierno y sabroso con guarnición</p>
+        </div>
+        <span class="carne-precio">$15.900</span>
+      </div>
+      <div class="carne-card">
+        <div class="carne-info">
+          <h4>Asado al Jugo a lo Pobre</h4>
+          <p>Asado jugoso con papas mayo y ensalada surtida</p>
+        </div>
+        <span class="carne-precio">$14.900</span>
+      </div>
+      <div class="carne-card">
+        <div class="carne-info">
+          <h4>Pulpa de Cerdo a la Mostaza</h4>
+          <p>Pulpa a lo pobre con mostaza artesanal de la casa</p>
+        </div>
+        <span class="carne-precio">$13.900</span>
+      </div>
+      <div class="carne-card">
+        <div class="carne-info">
+          <h4>Bistec de Vacuno a lo Pobre</h4>
+          <p>Bistec tierno con guarnición completa de la casa</p>
+        </div>
+        <span class="carne-precio">$13.800</span>
+      </div>
+    </div>
+    <div class="promo-banner">
+      <div class="promo-banner-text">
+        <h3>🍺 Promo PAL' 18</h3>
+        <p>1 Empanada de Pino + 1 Terremoto de ½ litro — La combinación perfecta para celebrar</p>
+      </div>
+      <div style="text-align:center">
+        <span class="promo-precio-grande">$5.500</span>
+        <span class="promo-precio-sub">Promoción vigente · Consultar disponibilidad</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENÚ DEL DÍA -->
+<section id="menu-dia" class="menu-dia">
+  <div class="container">
+    <span class="section-tag">De lunes a domingo</span>
+    <h2 class="section-title">Menú del Día</h2>
+    <p class="section-sub">Escrito cada mañana en nuestra pizarra. Platos contundentes, caseros y a precio de barrio. Desde las 12:00 del mediodía.</p>
+    <div class="pizarron">
+      <div class="pizarron-title">🍽️ La Mandarina · Menú del Día 🍽️</div>
+      <div class="pizarron-cols">
+        <div>
+          <h3>Platos de Fondo</h3>
+          <div class="pizarron-item"><span>Cazuela de Vacuno / Ave <em>— Con choclo y papa</em></span></div>
+          <div class="pizarron-item"><span>Porotos con Riendas <em>— Mexicana de vacuno / picante</em></span></div>
+          <div class="pizarron-item"><span>Pollo al Horno <em>— Dorado o al coñac</em></span></div>
+          <div class="pizarron-item"><span>Lomo al Horno de Cerdo</span></div>
+          <div class="pizarron-item"><span>Pescado Frito (Merluza) <em>— Sin espinas</em></span></div>
+          <div class="pizarron-item"><span>Asado al Jugo</span></div>
+          <div class="pizarron-item"><span>Costillar al Jugo</span></div>
+          <div class="pizarron-item"><span>El Perdigón a la Salsa <em>— Especialidad</em></span></div>
+          <div class="pizarron-item"><span>Chuleta Frita / Bistec de Panita</span></div>
+          <div class="pizarron-item"><span>Bistec de Vacuno / Tomate relleno</span></div>
+          <div class="pizarron-item"><span>Filete de Pollo a la Plancha</span></div>
+          <div class="pizarron-item"><span>Mazamorra Chilena</span></div>
+        </div>
+        <div>
+          <h3>Entradas y Sopas</h3>
+          <div class="pizarron-item"><span>Sopa de Mariscos</span></div>
+          <div class="pizarron-item"><span>Sopa de Ave / Consomé</span></div>
+          <div class="pizarron-item"><span>Humitas caseras <em>— De temporada</em></span></div>
+          <div class="pizarron-item"><span>Empanada de Pino</span></div>
+          <h3 style="margin-top:1.5rem">Ensaladas</h3>
+          <div class="pizarron-item"><span>Ensalada Surtida <em>— Lechuga, tomate, cebolla</em></span></div>
+          <div class="pizarron-item"><span>Chilena <em>— Tomate con cebolla</em></span></div>
+          <div class="pizarron-agregados">
+            <h3>Acompañamientos</h3>
+            <div class="agr-chips">
+              <span class="agr-chip">Arroz</span>
+              <span class="agr-chip">Papas Mayo</span>
+              <span class="agr-chip">Puré</span>
+              <span class="agr-chip">Tallarines Blancos</span>
+              <span class="agr-chip">Papas Fritas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="precio-menu">
+        <span>~$6.800</span>
+        <p>Precio referencial menú completo (entrada + fondo) · Consultar valores del día</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AMBIENTE -->
+<section class="ambiente">
+  <div class="container">
+    <span class="section-tag">El barrio tiene sabor</span>
+    <h2 class="section-title">Nuestro Ambiente</h2>
+    <p class="section-sub">Paredes naranjas, pizarras llenas de vida, decoraciones coloridas y el ruido alegre de una picada que siempre está llena.</p>
+    <div class="amb-grid">
+      <div class="amb-item amb-a"><img src="img/ambiente-1.jpg" alt="Interior La Mandarina" onerror="this.outerHTML='🏠'"></div>
+      <div class="amb-item amb-b"><img src="img/ambiente-2.jpg" alt="Pizarra menú" onerror="this.outerHTML='🍊'"></div>
+      <div class="amb-item amb-c"><img src="img/plato-carne2.jpg" alt="Plato de carne" onerror="this.outerHTML='🥩'"></div>
+      <div class="amb-item amb-d"><img src="img/ambiente-3.jpg" alt="Decoración local" onerror="this.outerHTML='🍲'"></div>
+      <div class="amb-item amb-e"><img src="img/schop.jpg" alt="Schop La Mandarina" onerror="this.outerHTML='🍺'"></div>
+    </div>
+    <div class="amb-caracteristicas">
+      <div class="amb-car"><span class="amb-car-icon">🎨</span><h4>Local Colorido</h4><p>Paredes naranjas y azules con decoraciones artesanales. Un ambiente alegre y auténtico de barrio popular.</p></div>
+      <div class="amb-car"><span class="amb-car-icon">👨‍👩‍👧</span><h4>Para Toda la Familia</h4><p>Para los niños hay lápices de colores y libros para pintar. Un detalle que los clientes siempre agradecen.</p></div>
+      <div class="amb-car"><span class="amb-car-icon">🚗</span><h4>Fácil de Encontrar</h4><p>Sierra Bella 2421, San Joaquín. Accesible en metro, micro o auto. En el corazón del barrio.</p></div>
+      <div class="amb-car"><span class="amb-car-icon">⚡</span><h4>Servicio Rápido</h4><p>Incluso en hora peak el servicio es ágil. Llegas, te sientas y en pocos minutos tienes tu plato.</p></div>
+      <div class="amb-car"><span class="amb-car-icon">🍽️</span><h4>Porciones Generosas</h4><p>Aquí nadie se queda con hambre. Los platos son contundentes, abundantes y bien condimentados.</p></div>
+      <div class="amb-car"><span class="amb-car-icon">💰</span><h4>Precio de Barrio</h4><p>De $5.000 a $10.000 por persona. Comida real, abundante y a precio honesto como siempre ha sido.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEÑAS -->
+<section id="resenas" class="resenas">
+  <div class="container">
+    <span class="section-tag">Lo que dice el barrio</span>
+    <h2 class="section-title">Opiniones en Google</h2>
+    <p class="section-sub">Más de 1.090 comensales han compartido su experiencia. Esto es lo que dicen.</p>
+    <div class="rating-grande">
+      <span class="rating-num">4.4</span>
+      <div class="rating-detalle">
+        <div class="estrellas">★★★★½</div>
+        <span class="cnt">1.090 opiniones verificadas en Google</span>
+      </div>
+      <div class="rating-barras">
+        <div class="rb-row"><span class="rb-lbl">5</span><div class="rb-bar"><div class="rb-fill" style="width:65%"></div></div><span class="rb-val">65%</span></div>
+        <div class="rb-row"><span class="rb-lbl">4</span><div class="rb-bar"><div class="rb-fill" style="width:20%"></div></div><span class="rb-val">20%</span></div>
+        <div class="rb-row"><span class="rb-lbl">3</span><div class="rb-bar"><div class="rb-fill" style="width:7%"></div></div><span class="rb-val">7%</span></div>
+        <div class="rb-row"><span class="rb-lbl">2</span><div class="rb-bar"><div class="rb-fill" style="width:4%"></div></div><span class="rb-val">4%</span></div>
+        <div class="rb-row"><span class="rb-lbl">1</span><div class="rb-bar"><div class="rb-fill" style="width:4%"></div></div><span class="rb-val">4%</span></div>
+      </div>
+    </div>
+    <div class="tags-populares">
+      <span class="tag-pop">🌶️ Picada 40</span>
+      <span class="tag-pop">🍽️ Almorzar 40</span>
+      <span class="tag-pop">😋 Sabor 17</span>
+      <span class="tag-pop">🍲 Cazuela 15</span>
+      <span class="tag-pop">👍 Rico 15</span>
+      <span class="tag-pop">🇨🇱 Comida Chilena 12</span>
+      <span class="tag-pop">🐟 Pescado Frito 7</span>
+      <span class="tag-pop">🥔 Puré 7</span>
+    </div>
+    <div class="resenas-grid">
+      <div class="res-card">
+        <div class="res-header"><div class="res-avatar">JB</div><div><div class="res-name">Javier Barrenechea Araya</div><div class="res-stars">★★★★★</div><div class="res-tiempo">Hace 7 meses · Local Guide</div></div></div>
+        <p class="res-texto">"Bueno y barato. La atención y el sabor todo muy bueno. Para los niños les pasan lápices de colores y libros para pintar, detalle que siempre se agradece."</p>
+        <span class="res-badge">✓ Local Guide</span>
+      </div>
+      <div class="res-card">
+        <div class="res-header"><div class="res-avatar">AV</div><div><div class="res-name">Alonso V.</div><div class="res-stars">★★★★★</div><div class="res-tiempo">Hace 7 meses · Local Guide</div></div></div>
+        <p class="res-texto">"Increíble picada, muy buen menú de almuerzo. Platos contundentes y sabrosos. Menú almuerzo a ~$6.800 con entrada/sopa + fondo."</p>
+        <span class="res-badge">✓ Local Guide</span>
+      </div>
+      <div class="res-card">
+        <div class="res-header"><div class="res-avatar">MM</div><div><div class="res-name">Mario Mutis</div><div class="res-stars">★★★★★</div><div class="res-tiempo">Hace 2 años · Local Guide</div></div></div>
+        <p class="res-texto">"Se notan los 80 años de existencia y experiencia. La cazuela más rica de la vida, perfecta. Todo siempre rico, tradicional. Excelente servicio."</p>
+        <span class="res-badge">✓ Local Guide</span>
+      </div>
+      <div class="res-card">
+        <div class="res-header"><div class="res-avatar">FC</div><div><div class="res-name">Francisco Córdova</div><div class="res-stars">★★★★★</div><div class="res-tiempo">Hace 5 meses · Local Guide</div></div></div>
+        <p class="res-texto">"Llegamos en hora peak, pero igual encontramos una mesa. El servicio fue rápido a pesar de lo lleno que estaba. Todo rico y abundante."</p>
+        <span class="res-badge">✓ Local Guide</span>
+      </div>
+      <div class="res-card">
+        <div class="res-header"><div class="res-avatar">LA</div><div><div class="res-name">Luis Álvarez</div><div class="res-stars">★★★★☆</div><div class="res-tiempo">Hace un año · Local Guide</div></div></div>
+        <p class="res-texto">"Me comí una cazuela con rico sabor. Un local con tanta tradición merece música chilena —cuecas, cumbias— ad hoc al espíritu del lugar desde 1943."</p>
+        <span class="res-badge">✓ Local Guide</span>
+      </div>
+      <div class="res-card">
+        <div class="res-header"><div class="res-avatar">CL</div><div><div class="res-name">Cliente habitual</div><div class="res-stars">★★★★★</div><div class="res-tiempo">Reciente</div></div></div>
+        <p class="res-texto">"El lomo vetado a lo pobre es brutal. Mucha carne, buen precio y la atención es simpática. Un clásico del barrio que mantiene su calidad."</p>
+        <span class="res-badge">Google Reviews</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta">
+  <h2>¿Tienes hambre?</h2>
+  <p>Visítanos de lunes a domingo de 12:00 a 17:30 en Sierra Bella 2421, San Joaquín. ¡La olla ya está en el fuego!</p>
+  <div class="cta-btns">
+    <a href="tel:+56994370380" class="cta-btn-a">📞 Llamar ahora: +56 9 9437 0380</a>
+    <a href="https://www.google.com/maps/place/Restaurant+Shoperia+la+Mandarina/@-33.4764615,-70.6320139" target="_blank" class="cta-btn-b">📍 Ver en Google Maps</a>
+  </div>
+</div>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contacto">
+  <div class="container">
+    <span class="section-tag">Encuéntranos</span>
+    <h2 class="section-title">Contacto e información</h2>
+    <div class="contacto-grid">
+      <div class="contacto-info">
+        <h3>Todo lo que necesitas saber</h3>
+        <div class="ci-item"><span class="ci-ico">📍</span><div class="ci-body"><strong>Dirección</strong><span>Sierra Bella 2421, San Joaquín, Región Metropolitana<br><small>Código Plus: G9F9+C5 San Joaquín</small></span></div></div>
+        <div class="ci-item"><span class="ci-ico">📞</span><div class="ci-body"><strong>Teléfono</strong><a href="tel:+56994370380">+56 9 9437 0380</a></div></div>
+        <div class="ci-item"><span class="ci-ico">🕐</span><div class="ci-body"><strong>Horario de Atención</strong>
+          <table class="horario-tabla">
+            <tr><td>Lunes</td><td>12:00 – 17:30 hrs.</td></tr>
+            <tr><td>Martes</td><td>12:00 – 17:30 hrs.</td></tr>
+            <tr><td>Miércoles</td><td>12:00 – 17:30 hrs.</td></tr>
+            <tr><td>Jueves</td><td>12:00 – 17:30 hrs.</td></tr>
+            <tr><td>Viernes</td><td>12:00 – 17:30 hrs.</td></tr>
+            <tr><td>Sábado</td><td>12:00 – 17:30 hrs.</td></tr>
+            <tr><td>Domingo</td><td>12:00 – 17:30 hrs.</td></tr>
+          </table>
+        </div></div>
+        <div class="ci-item"><span class="ci-ico">💰</span><div class="ci-body"><strong>Rango de Precios</strong><span>$5.000 – $10.000 por persona</span></div></div>
+        <div class="ci-item"><span class="ci-ico">🛵</span><div class="ci-body"><strong>Servicio</strong><span>Consumo en el lugar · Entrega a domicilio disponible</span></div></div>
+        <div class="ci-item"><span class="ci-ico">💳</span><div class="ci-body"><strong>Medio de Pago</strong><span>Efectivo · Transferencia bancaria</span></div></div>
+        <div class="redes-sociales">
+          <a href="tel:+56994370380" class="red-btn red-llamar">📞 Llamar al local</a>
+          <a href="https://www.google.com/maps/place/Restaurant+Shoperia+la+Mandarina/@-33.4764615,-70.6320139" target="_blank" class="red-btn red-maps">📍 Google Maps</a>
+        </div>
+      </div>
+      <div>
+        <div class="mapa-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.1!2d-70.6342!3d-33.4765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5506b9fb0f1%3A0xf44337f65d658061!2sRestaurant%20Shoperia%20la%20Mandarina!5e0!3m2!1ses!2scl!4v1"
+            width="100%" height="280" style="border:0;border-radius:14px" allowfullscreen loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="como-llegar">
+          <h4>¿Cómo llegar?</h4>
+          <div class="ci-item"><span class="ci-ico" style="font-size:1.2rem">🚇</span><div class="ci-body"><strong>Metro</strong><span>Línea 4 — Est. Rodrigo de Araya o San Joaquín</span></div></div>
+          <div class="ci-item"><span class="ci-ico" style="font-size:1.2rem">🚌</span><div class="ci-body"><strong>Micro</strong><span>Varias líneas con parada en Sierra Bella</span></div></div>
+          <div class="ci-item" style="margin-bottom:0"><span class="ci-ico" style="font-size:1.2rem">🚗</span><div class="ci-body"><strong>Auto</strong><span>Estacionamiento en la vía pública disponible</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <span class="footer-logo-text">La Mandarina</span>
+        <span class="footer-logo-sub">Restaurant · Schoperia · Patrimonio del Barrio</span>
+        <p class="footer-desc">Restaurant Schoperia La Mandarina: más de 80 años sirviendo la cocina chilena más honesta de San Joaquín. Carnes a lo pobre, cazuelas caseras, precios de barrio. Abierto todos los días de 12:00 a 17:30.</p>
+      </div>
+      <div>
+        <h4>El Local</h4>
+        <ul class="footer-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#historia">Nuestra Historia</a></li>
+          <li><a href="#carnes">Carta de Carnes</a></li>
+          <li><a href="#menu-dia">Menú del Día</a></li>
+          <li><a href="#resenas">Opiniones</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul class="footer-links">
+          <li><a href="tel:+56994370380">+56 9 9437 0380</a></li>
+          <li><a href="#">Sierra Bella 2421</a></li>
+          <li><a href="#">San Joaquín, Santiago</a></li>
+          <li><a href="#">Lun – Dom: 12:00 – 17:30</a></li>
+          <li><a href="https://www.google.com/maps/place/Restaurant+Shoperia+la+Mandarina" target="_blank">Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Restaurant Schoperia La Mandarina · Sierra Bella 2421, San Joaquín, Santiago · Patrimonio Culinario del Barrio</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+</body>
+</html>
