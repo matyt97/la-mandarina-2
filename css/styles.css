@@ -87,7 +87,7 @@ section{padding:5rem 2rem}
 .hbf-num{font-family:'Oswald',sans-serif;font-size:1.8rem;font-weight:600;line-height:1}
 .hbf-lbl{font-size:.55rem;letter-spacing:1px;text-transform:uppercase;font-weight:700}
 .historia-mini-fotos{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:2rem}
-.mini-foto{height:100px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:2.5rem}
+.mini-foto{height:100px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:2.5rem}.mini-foto img{width:100%;height:100%;object-fit:cover}.mini-foto img{width:100%;height:100%;object-fit:cover}
 .mf1{background:linear-gradient(135deg,var(--naranja-c),var(--amarillo))}
 .mf2{background:linear-gradient(135deg,var(--rojo-ladrillo),var(--naranja))}
 .mf3{background:linear-gradient(135deg,var(--azul-oscuro),var(--azul-m))}
