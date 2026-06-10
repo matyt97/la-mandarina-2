@@ -124,7 +124,7 @@ section{padding:5rem 2rem}
 .pizarron::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,255,255,.015) 0,rgba(255,255,255,.015) 1px,transparent 1px,transparent 28px)}
 .pizarron-title{font-family:'Dancing Script',cursive;color:var(--amarillo-c);font-size:2rem;text-align:center;margin-bottom:2rem;display:flex;align-items:center;justify-content:center;gap:.8rem}
 .pizarron-cols{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
-.pizarron-col h3{font-family:'Oswald',sans-serif;color:var(--naranja-c);font-size:.85rem;letter-spacing:3px;text-transform:uppercase;margin-bottom:1rem;border-bottom:1px solid rgba(212,82,10,.3);padding-bottom:.5rem}
+.pizarron-cols div > h3{font-family:'Playfair Display',serif;color:var(--amarillo-c);font-size:1rem;letter-spacing:1px;text-transform:uppercase;margin-bottom:1rem;border-bottom:2px solid var(--naranja-m);padding-bottom:.5rem;padding-left:.5rem;border-left:4px solid var(--naranja-m);background:rgba(232,114,10,.08);border-radius:0 4px 4px 0}
 .pizarron-item{display:flex;align-items:flex-start;gap:.5rem;margin-bottom:.7rem}
 .pizarron-item::before{content:'—';color:var(--naranja-c);flex-shrink:0;margin-top:.05rem}
 .pizarron-item span{color:rgba(255,255,255,.85);font-size:.9rem;line-height:1.4;font-family:'Lato',sans-serif}
