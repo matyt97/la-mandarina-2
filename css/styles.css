@@ -81,7 +81,7 @@ section{padding:5rem 2rem}
 .historia{background:var(--crema)}
 .historia-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
 .historia-visual{position:relative}
-.historia-foto-main{width:100%;height:320px;border-radius:12px;overflow:hidden;box-shadow:0 8px 30px var(--sombra-naranja)}.historia-foto-main img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}.historia-foto-main img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.historia-foto-main{width:100%;height:320px;border-radius:12px;overflow:hidden;box-shadow:0 8px 30px var(--sombra-naranja);background:var(--naranja-c)}.historia-foto-main img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}.historia-foto-main img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 .historia-foto-main div{width:100%;height:100%;background:linear-gradient(135deg,var(--naranja) 0%,var(--rojo-ladrillo) 50%,var(--cafe-oscuro) 100%);display:flex;align-items:center;justify-content:center;font-size:6rem}
 .historia-badge-flotante{position:absolute;bottom:-1.5rem;right:-1.5rem;background:var(--amarillo);color:var(--cafe-oscuro);border-radius:50%;width:90px;height:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,.2);text-align:center}
 .hbf-num{font-family:'Oswald',sans-serif;font-size:1.8rem;font-weight:600;line-height:1}
@@ -90,8 +90,8 @@ section{padding:5rem 2rem}
 .mini-foto{height:100px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:2.5rem;width:100%;object-fit:cover;object-position:center}.mini-foto img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 .mf1{background:linear-gradient(135deg,var(--naranja-c),var(--amarillo))}
 .mf2{background:linear-gradient(135deg,var(--rojo-ladrillo),var(--naranja))}
-.mf3{background:linear-gradient(135deg,var(--azul-oscuro),var(--azul-m))}
-.mf4{background:linear-gradient(135deg,var(--verde-barrio),#4a8a3a)}
+.mf3{background:linear-gradient(135deg,var(--naranja-c),var(--naranja))}
+.mf4{background:linear-gradient(135deg,var(--rojo-ladrillo),var(--naranja-m))}
 .historia-texto .lead{font-family:'Dancing Script',cursive;color:var(--naranja-m);font-size:1.2rem;display:block;margin-bottom:.8rem}
 .historia-texto h2{font-family:'Playfair Display',serif;font-size:2rem;color:var(--cafe-oscuro);margin-bottom:1.2rem;line-height:1.3}
 .historia-texto p{color:#5a3010;line-height:1.85;font-size:.97rem;margin-bottom:.8rem}
