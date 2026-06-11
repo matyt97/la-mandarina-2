@@ -81,7 +81,7 @@ section{padding:5rem 2rem}
 .historia{background:var(--crema)}
 .historia-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
 .historia-visual{position:relative}
-.historia-foto-main{width:100%;height:320px;border-radius:12px;overflow:hidden;box-shadow:0 8px 30px var(--sombra-naranja);background:var(--naranja-c)}.historia-foto-main img{width:100%;height:100%;object-fit:contain;object-position:center;display:block;background:var(--naranja-c)}.historia-foto-main img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.historia-foto-main{width:100%;height:320px;border-radius:12px;overflow:hidden;box-shadow:0 8px 30px var(--sombra-naranja);background:var(--naranja-c)}.historia-foto-main img{width:100%;height:100%;object-fit:cover;object-position:40% center;display:block}
 .historia-foto-main div{width:100%;height:100%;background:linear-gradient(135deg,var(--naranja) 0%,var(--rojo-ladrillo) 50%,var(--cafe-oscuro) 100%);display:flex;align-items:center;justify-content:center;font-size:6rem}
 .historia-badge-flotante{position:absolute;bottom:-1.5rem;right:-1.5rem;background:var(--amarillo);color:var(--cafe-oscuro);border-radius:50%;width:90px;height:90px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,.2);text-align:center}
 .hbf-num{font-family:'Oswald',sans-serif;font-size:1.8rem;font-weight:600;line-height:1}
